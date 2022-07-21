@@ -1,15 +1,15 @@
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://hyde.getpoole.com
+title:            Rafael Pierre
+tagline:          'Solutions Architect & Machine Learning Engineer'
+description:      'Random Data, AI, ML and MLOps thoughts, ramblings and whatnot.'
+url:              https://rafaelpierre.github.io
 baseurl:          ''
 paginate:         5
 
 # About and contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Rafael Pierre'
+  url:            https://www.medium.com/@rafaelpierre
 
 # Gems
 plugins:
