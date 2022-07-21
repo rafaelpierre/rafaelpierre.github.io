@@ -11,9 +11,10 @@ canonical_url: https://mlopshowto.com/nevermind-docker-desktop-here-is-podman-53
 
 ---
 
-![](/img/1*sGv1D57xkypPxMu9vry2rg.jpeg)### Background
+![](/img/1*sGv1D57xkypPxMu9vry2rg.jpeg)
+### Background
 
-**UPDATE (28/05/2022):** *Podman covers most of Docker functionality, however I found that image layer caching is currently missing. One solution is using Podman coupled with* [*buildkit*](https://pythonspeed.com/articles/podman-buildkit/)*.*
+**UPDATE (28/05/2022):** *Podman covers most of Docker functionality, however I found that image layer caching is currently missing. One solution is using Podman coupled with [buildkit](https://pythonspeed.com/articles/podman-buildkit/).
 
 [Docker changed its license terms in August 2021](https://www.docker.com/blog/updating-product-subscriptions/ "https://www.docker.com/blog/updating-product-subscriptions/"). That means it is no longer possible to use Docker Desktop in a commercial setting without purchasing a license.
 
@@ -47,7 +48,9 @@ Our virtual machine should be running & ready to use. We can double check by run
 ```
 podman machine list
 ```
-![](/img/1*MxXKfnIBJlI-KvCqgxYYww.png)### Usage
+![](/img/1*MxXKfnIBJlI-KvCqgxYYww.png)
+
+### Usage
 
 The Podman CLI uses the same conventions and parameters as Docker’s, which is pretty neat. You can even create an alias for it, so that you can fire it up using the good and old *docker* command. Just add the following to your *.bash\_profile (*or*.zshrc,* if you use [ZShell](https://en.wikipedia.org/wiki/Z_shell "https://en.wikipedia.org/wiki/Z_shell")):
 
@@ -85,7 +88,9 @@ helper\_binaries\_dir=[“/usr/local/Cellar/podman/4.1.0/bin”,”/usr/local/Ce
 ```
 Your final *containers.conf* file should look like this:
 
-![](/img/1*9LzOa6wO0SgAdMtcZkfUSA.png)### QEMU
+![](/img/1*9LzOa6wO0SgAdMtcZkfUSA.png)
+
+### QEMU
 
 [QEMU](https://www.qemu.org/ "https://www.qemu.org/") is a virtualization engine for Mac. Depending on your environment, you might also need to install it. Easy to do it with brew:
 
@@ -131,14 +136,21 @@ podman generate kube -s -f manifest_name.yaml CONTAINER_ID
 ```
 As a result, you will get something like this:
 
-![](/img/1*i1PENVJY-PYnGz8J5GW9AA.png)Pretty neat, huh?### You might also like
+![](/img/1*i1PENVJY-PYnGz8J5GW9AA.png)
 
-[**Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2**  
-*Learn how to use MLflow Model Registry to track, register and deploy Machine Learning Models effectively.*mlopshowto.com](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc "https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc")[**Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 1**  
-*Learn why Model Tracking and MLflow are critical for a successful machine learning project*mlopshowto.com](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-1-f8ca857b5971 "https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-1-f8ca857b5971")[**What are Feature Stores and Why Are They Critical For Scaling Machine Learning**  
-*Understand why Feature Stores are critical for a good MLOps foundation*mlopshowto.com](https://mlopshowto.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-machine-learning-94e14afec81d "https://mlopshowto.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-machine-learning-94e14afec81d")### Reference
+### You might also like
 
-[**How Podman runs on Macs and other container FAQs**  
-*As the Podman machine function becomes more used-particularly on Macs-there have been many questions about how this all…*www.redhat.com](https://www.redhat.com/sysadmin/podman-mac-machine-architecture "https://www.redhat.com/sysadmin/podman-mac-machine-architecture")[**Dockerless containers with Podman on MacOS**  
+* [**Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2**  
+*Learn how to use MLflow Model Registry to track, register and deploy Machine Learning Models effectively.*mlopshowto.com](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc "https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc")
+* [**Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 1**  
+*Learn why Model Tracking and MLflow are critical for a successful machine learning project*mlopshowto.com](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-1-f8ca857b5971 "https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-1-f8ca857b5971")
+* [**What are Feature Stores and Why Are They Critical For Scaling Machine Learning**  
+*Understand why Feature Stores are critical for a good MLOps foundation*mlopshowto.com](https://mlopshowto.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-machine-learning-94e14afec81d "https://mlopshowto.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-machine-learning-94e14afec81d")
+
+### Reference
+
+* [**How Podman runs on Macs and other container FAQs**  
+*As the Podman machine function becomes more used-particularly on Macs-there have been many questions about how this all…*www.redhat.com](https://www.redhat.com/sysadmin/podman-mac-machine-architecture "https://www.redhat.com/sysadmin/podman-mac-machine-architecture")
+* [**Dockerless containers with Podman on MacOS**  
 *Docker the company has been throwing wrenches lately into what used to be a smooth user experience with their new Terms…*awstip.com](https://awstip.com/dockerless-containers-with-podman-on-macos-7b08a8e308fa "https://awstip.com/dockerless-containers-with-podman-on-macos-7b08a8e308fa")
 
