@@ -2,23 +2,23 @@ linkedin:
   id: 'rafael-pierre'
   href: 'https://www.linkedin.com/in/rafaelpierre'
   title: 'LinkedIn'
-  fa-icon: 'fas-linkedin fa-xl'
+  fa-icon: 'fa-brands fa-linkedin fa-xl'
 
 github:
   id: 'rafaelvp-db'
   href: 'https://github.com/rafaelvp-db'
   title: 'GitHub'
-  fa-icon: 'fas-brands fa-github fa-xl'
+  fa-icon: 'fa-brands fa-github fa-xl'
 
 medium:
   id: 'rafaelpierre'
   href: 'https://www.medium.com/@rafaelpierre'
   title: 'Medium'
-  fa-icon: 'fas-brands fa-medium fa-xl'
+  fa-icon: 'fa-brands fa-medium fa-xl'
 
 web:
   id: 'mlopshowto'
   href: 'https://mlopshowto.com'
   title: 'MLOpsHowTo'
-  fa-icon: 'fas fa-link'
+  fa-icon: 'fa fa-link fa-xl'
 
