@@ -40,3 +40,11 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+#Python
+.venv
+*.__pycache__
+.egg
+.egg-info
+.pyc
+*/.venv

@@ -1,8 +1,10 @@
 ---
 layout:	post
-title:	"Going Dutch: How I Used Data Science and Machine Learning to Find an Apartment in Amsterdam — Part…"
+title:	"Going Dutch: How I Used Data Science and Machine Learning to Find an Apartment in Amsterdam — Part 1"
+tags: data-science machine-learning amsterdam real-estate
 date:	2018-06-06
 canonical_url: https://towardsdatascience.com/going-dutch-how-i-used-data-science-and-machine-learning-to-find-an-apartment-in-amsterdam-part-def30d6799e4
+
 ---
 
 

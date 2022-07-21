@@ -64,6 +64,26 @@ html {
   border-radius: 50%
 }
 
+.sidebar-right {
+  left: auto;
+  right: 0;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #ffffff;
+}
+
+@media (min-width: 48em) {
+  .sidebar-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -145,6 +165,7 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
+
 
 
 /*

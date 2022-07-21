@@ -5,6 +5,8 @@ description:      'Random Data, AI, ML and MLOps thoughts, ramblings and whatnot
 url:              https://rafaelpierre.github.io
 baseurl:          ''
 paginate:         5
+github_username: rafaelpierre
+github_repo: "rafaelpierre"
 
 # About and contact
 author:
@@ -16,6 +18,11 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
 
 # Custom vars
 version:          3.0.0

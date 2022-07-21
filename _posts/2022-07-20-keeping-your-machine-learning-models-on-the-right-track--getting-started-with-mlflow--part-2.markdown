@@ -3,6 +3,8 @@ layout:	post
 title:	"Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2"
 date:	2022-07-20
 canonical_url: https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc
+categories: [thought-leadership]
+tags: [mlflow, mlops, machine-learning, machine-learning-engineering]
 ---
 
 

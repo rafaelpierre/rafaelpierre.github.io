@@ -1,0 +1,13 @@
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="{{ category_name | slugize }}"></div>
+      <p></p>
+
+      <a href="{{ site.baseurl }}/{{ category_name }}" class="sidebar-nav-item">
+        {{ category_name }}
+      </a>
+  </div>
+{% endfor %}
+</div>
