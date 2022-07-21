@@ -20,5 +20,5 @@ web:
   id: 'mlopshowto'
   href: 'https://mlopshowto.com'
   title: 'MLOpsHowTo'
-  fa-icon: 'fa-solid fa-link-simple fa-xl'
+  fa-icon: 'fa-solid fa-link-horizontal fa-xl'
 
