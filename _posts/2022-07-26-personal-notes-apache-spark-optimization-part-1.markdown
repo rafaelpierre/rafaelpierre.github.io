@@ -17,7 +17,7 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
   <hr/>
 
-  ##Some Background on Adaptive Query Execution
+  ### Some Background on Adaptive Query Execution
 
   * Primitive version on Spark 1.6
   * New version prototyped and experiment by Intel Big Data
