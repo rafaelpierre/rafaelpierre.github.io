@@ -12,9 +12,8 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
 ---
 
-![](/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg)[Credit: Unsplash](https://unsplash.com/photos/YLSwjSy7stw)
+![](/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg)
 
-test123
   ### Some Background on Adaptive Query Execution
 
   * Primitive version on Spark 1.6
