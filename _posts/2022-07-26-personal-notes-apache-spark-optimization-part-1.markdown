@@ -14,13 +14,13 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
 ![](/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg)
 
-**TLDR**; *these are personal study notes on Apache Spark optimization, specially focusing on the basics but also features added after version 3.0*
+**TLDR**; *these are personal study notes on Apache Spark optimization, specially focusing on the basics but also features added after version 3.0.*
 
-  ###Some Background on Adaptive Query Execution
+  ## Some Background on Adaptive Query Execution
 
   * Primitive version on Spark 1.6
   * New version prototyped and experiment by Intel Big Data
-  * Databricks and Intel co-engineered new AQE in Spark 3.0
+  * Databricks and Intel co-engineered new AQE in Spark 3.0.
 
   ## Performance Optimization on Spark: Cost-Based Optimization
 
