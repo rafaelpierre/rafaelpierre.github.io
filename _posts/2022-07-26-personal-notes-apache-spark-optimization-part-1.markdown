@@ -16,7 +16,7 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
 **TLDR**; *these are personal study notes on Apache Spark optimization, specially focusing on the basics but also features added after version 3.0.*
 
-<hr></hr>
+<hr/>
 
 ## Some Background on Adaptive Query Execution
 
