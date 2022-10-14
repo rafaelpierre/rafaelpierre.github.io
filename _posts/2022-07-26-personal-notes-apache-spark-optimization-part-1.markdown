@@ -16,15 +16,17 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
 **TLDR**; *these are personal study notes on Apache Spark optimization, specially focusing on the basics but also features added after version 3.0.*
 
-  ## Some Background on Adaptive Query Execution
+<hr></hr>
 
-  * Primitive version on Spark 1.6
-  * New version prototyped and experiment by Intel Big Data
-  * Databricks and Intel co-engineered new AQE in Spark 3.0.
+## Some Background on Adaptive Query Execution
 
-  ## Performance Optimization on Spark: Cost-Based Optimization
+* Primitive version on Spark 1.6
+* New version prototyped and experiment by Intel Big Data
+* Databricks and Intel co-engineered new AQE in Spark 3.0.
 
-  * Prior to **Apache Spark 3.0**, most of the possibilities around Spark Optimization were centered around  **Cost-Based Optimization**. 
+## Performance Optimization on Spark: Cost-Based Optimization
+
+* Prior to **Apache Spark 3.0**, most of the possibilities around Spark Optimization were centered around  **Cost-Based Optimization**. 
 
   * **Cost-Based Optimization** aims to choose the best plan, but it does not work well when:
     * Stale or missing statistics lead to innacurate estimates
@@ -35,15 +37,15 @@ tags: [apache-spark, performance-optimization, cost-based-optimization, adaptive
 
     
 
-    **Adaptive Query Execution**, on the other hand, bases all optimization decisions on **accurate runtime** statistics.
+  **Adaptive Query Execution**, on the other hand, bases all optimization decisions on **accurate runtime** statistics.
 
-    ##Query Stages
+  ## Query Stages
 
-    * Shuffle or broadcast exchanges divide a query into query stages
-    * Intermediate results are materialized at the end of a query stage
-    * Query stage boundaries optimal for runtime optimization:
-      * The inherent break point of operator pipelines
-      * Statistics available, e.g. data size, partition sizes
+  * Shuffle or broadcast exchanges divide a query into query stages
+  * Intermediate results are materialized at the end of a query stage
+  * Query stage boundaries optimal for runtime optimization:
+    * The inherent break point of operator pipelines
+    * Statistics available, e.g. data size, partition sizes
 
   (*to be continued...*)
 
