@@ -20,6 +20,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+theme: 
+
 markdown: kramdown
 highlighter: rouge
 
