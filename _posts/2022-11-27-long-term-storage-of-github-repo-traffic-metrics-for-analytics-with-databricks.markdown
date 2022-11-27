@@ -119,7 +119,7 @@ Since I wanted to simplify my life here by avoiding any kind of work related to 
 
 ![](/img/databricks_workflows_github.png)
 
-I'm using a really small, single node job cluster - this means that I'm spinning up compute with insignigicant amount of cost on the fly; once the job stops running, cluster is automatically killed. 💰
+I'm using a really small, single node job cluster - this means that I'm spinning up compute with insignificant amount of cost on the fly; once the job stops running, cluster is automatically killed. 💰
 
 ## Visualization & Analytics
 
@@ -134,3 +134,5 @@ A few queries and visualizations later, and here we are:
 ![](/img/repo_clones_dbsql.png)
 
 ### Takeaways
+
+Now I can store all traffic metrics from all my repos for life 🙌🏻
