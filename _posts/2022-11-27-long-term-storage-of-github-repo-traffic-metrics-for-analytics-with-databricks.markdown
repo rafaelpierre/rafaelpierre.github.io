@@ -6,6 +6,8 @@ categories: [data-engineering, software-engineering]
 tags: [github, devops, databricks, databricks-sql, databricks-workflows]
 ---
 
+<hr/>
+
 **TLDR**; *Github currently stores traffic metrics for only 15 days - if you want to store these metrics for a longer period you are out of luck. I wanted to have these numbers for my own repos, so in this post I will show how I have done that using Databricks, Delta, Workflows, and Databricks SQL.*
 
 <hr/>
