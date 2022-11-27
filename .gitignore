@@ -48,3 +48,4 @@ node_modules
 .egg-info
 .pyc
 */.venv
+*.draft
